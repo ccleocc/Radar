@@ -83,7 +83,7 @@ div[class*="st-key-kw_remove_"] button { min-width: 1.45rem !important; width: 1
 """, unsafe_allow_html=True)
 
 st.title("🏭 中国上市公司东南亚投资建厂公告雷达")
-st.caption("V2.3.2 · 左侧加入中国建筑第八工程局有限公司 Logo。")
+st.caption("V2.3.2")
 
 # Company logo at the top of the sidebar. Keep the official public image URL so the
 # deployed app always uses the supplied logo; if the source image cannot be loaded,
