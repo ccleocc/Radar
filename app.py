@@ -135,7 +135,7 @@ if ADMIN_PASSWORD:
 else:
     # Keep local development convenient, but prominently warn if an open app is deployed.
     IS_ADMIN = True
-    st.sidebar.warning("尚未配置管理员密码：当前管理操作对所有访问者开放。公开部署前，请在 Streamlit Cloud → App settings → Secrets 中设置 RADAR_ADMIN_PASSWORD。")
+    st.sidebar.warning("尚未配置管理员密码：当前管理操作对所有访问者开放。")
 
 with st.sidebar.expander("系统边界与当前数据源", expanded=False):
     st.markdown("**主数据源：巨潮资讯网公告全文检索接口**")
